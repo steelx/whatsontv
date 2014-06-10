@@ -1,0 +1,21 @@
+{
+  "name": "whatsontv",
+  "version": "0.0.0",
+  "authors": [
+    "Ajinkya Borade <ajinkyab1987@gmail.com>"
+  ],
+  "description": "TV guide",
+  "main": "server.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/bower_components",
+    "test",
+    "tests"
+  ]
+}
