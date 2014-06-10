@@ -1,5 +1,5 @@
 angular.module('WhatsOnTV', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap'])
-  .config(['$locationProvider', function($locationProvider,$routeProvider) {
+  .config(['$locationProvider', function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);
 
     $routeProvider
