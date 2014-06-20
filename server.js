@@ -120,7 +120,7 @@ app.use(function(err, req, res, next) {
 
 //Query and Parse The TVDB API
 app.post('/api/shows', function(req, res, next) {
-  var apiKey = '9EF1D1E7D28FDA0B';
+  var apiKey = 'A985982E8DC7C443';
   var parser = xml2js.Parser({
     explicitArray: false,
     normalizeTags: true
