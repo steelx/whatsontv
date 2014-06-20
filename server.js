@@ -4,6 +4,11 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var async = require('async');
+var request = require('request');
+var xml2js = require('xml2js');
+var _ = require('lodash');
+
 //Database
 //Monogoose schema
 var mongoose = require('mongoose');
